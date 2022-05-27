@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo Css/Formulario.css">
+    <link rel="stylesheet" href="Estilo Css/estilo.css">
+    <link rel="stylesheet" href="Estilo Css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Formulario</title>
+
+
+</head>
+<body>
+
+    <header>  
+        <div class="contenedor">
+            <h1>Bandas de Rock</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="fa-solid fa-bars" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="Index.html">Inicio</a>
+                <a href="Información.html">Info</a>
+                <a href="Galería.html">Galería</a>
+                <a href="Formulario.html">Formulario</a>
+            </nav>    
+          </div>
+   </header>
+
+    <form action="" class="formulario" onsubmit="validar();">
+        <h1 class="formulario__titulo">Contacto</h1>
+        <input type="text" id="nombre" class="formulario__input">
+        <label for="" 
+        class="formulario__label">Nombres</label>
+        <input type="text" id="correo" class="formulario__input">
+        <label for="" 
+        class="formulario__label">Correo</label>
+        <input type="text" id="telefono" class="formulario__input">
+        <label for="" 
+        class="formulario__label">Teléfono</label>
+        <input type="text" id="mensaje" class="formulario__input">
+        <label for="" 
+        class="formulario__label">Mensaje</label>
+        <input type="submit" class="formulario__submit">
+    
+
+    </form>
+    <script src="formulario.js"></script>
+
+
+    
+</body>
+</html>

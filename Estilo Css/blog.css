@@ -1,0 +1,42 @@
+
+
+
+#blog h3 {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#blog h4 {
+    font-size: 20;
+}
+
+
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+
+
+section  {
+    margin-top: 50px;
+}
+li {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
